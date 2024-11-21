@@ -5,50 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64515881-1dc1-4e2e-b1f0-56e34f55d8e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/todo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myauth/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myauth/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myauth/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myauth/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myauth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myauth/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myauth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myauth/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/app/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/app/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/myauth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myauth/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/myauth/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myauth/logout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/myauth/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myauth/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2ozRIV6CSW5oI7hKBsU0zoKEgvl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\merion\todo\templates" />
+      <recent name="D:\projects\merion\todo\templates\myauth" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="todo" type="Python.DjangoServer" factoryName="Django server">
       <module name="todo" />
@@ -90,7 +110,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731870337302</updated>
-      <workItem from="1731870455422" duration="3637000" />
+      <workItem from="1731870455422" duration="5160000" />
+      <workItem from="1731915408744" duration="5781000" />
+      <workItem from="1731925799823" duration="4278000" />
+      <workItem from="1732014983156" duration="4000" />
+      <workItem from="1732082958725" duration="962000" />
+      <workItem from="1732128952946" duration="4383000" />
+      <workItem from="1732183379747" duration="2482000" />
     </task>
     <servers />
   </component>
