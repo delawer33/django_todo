@@ -1,3 +1,40 @@
-.login-form {
-    font-size: 90px;
+.form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+}
+
+.form input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+}
+
+/*.label-username input{*/
+/*    width: 300px;*/
+/*}*/
+
+#items {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.item-list {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.todo-item {
+    margin-top : 10px;
+    width: 500px;
+    border: 1px solid black;
+    padding: 10px;
 }

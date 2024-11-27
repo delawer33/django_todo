@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64515881-1dc1-4e2e-b1f0-56e34f55d8e3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myauth/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/app/archive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/app/item-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/app/list_elem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myauth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myauth/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/myauth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myauth/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/myauth/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myauth/logout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -43,6 +59,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projects/merion/todo/templates/app&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -52,7 +70,12 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\merion\todo\templates\app" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\merion\todo\static\css" />
+      <recent name="D:\projects\merion\todo\app" />
       <recent name="D:\projects\merion\todo\templates" />
       <recent name="D:\projects\merion\todo\templates\myauth" />
     </key>
@@ -104,7 +127,16 @@
       <workItem from="1732014983156" duration="4000" />
       <workItem from="1732082958725" duration="962000" />
       <workItem from="1732128952946" duration="4383000" />
-      <workItem from="1732183379747" duration="2807000" />
+      <workItem from="1732183379747" duration="4987000" />
+      <workItem from="1732192076896" duration="3760000" />
+      <workItem from="1732210490174" duration="3750000" />
+      <workItem from="1732255924972" duration="3868000" />
+      <workItem from="1732272234321" duration="609000" />
+      <workItem from="1732277769717" duration="2518000" />
+      <workItem from="1732383663664" duration="8091000" />
+      <workItem from="1732442927013" duration="6701000" />
+      <workItem from="1732646966517" duration="6676000" />
+      <workItem from="1732692073867" duration="1096000" />
     </task>
     <servers />
   </component>

@@ -3,18 +3,9 @@ from django.contrib.auth.views import LoginView, LogoutView
 from django.shortcuts import render
 from django.urls import reverse_lazy
 from django.views.generic import CreateView
-from .models import User
-from django.contrib.auth.forms import UserCreationForm
+from .forms import CustomUserCreationForm
 
 
-
-
-class CustomUserCreationForm(UserCreationForm):
-    email = forms.EmailField(label='email')
-
-    class Meta:
-        model = User
-        fields = ('email',)
 
 class RegistrationView(CreateView):
     # model = User
@@ -26,6 +17,8 @@ class RegistrationView(CreateView):
 
 class LoginView(LoginView):
     template_name = "myauth/login.html"
+    # form_class = LoginForm
+    # success_url = reverse_lazy("app:list")
 
 
 class LogoutView(LogoutView):

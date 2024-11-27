@@ -1,15 +1,23 @@
 {% extends "base.html" %}
 
 {% block title %}
-    Login
+    Войти
 {% endblock %}
 
 {% block body %}
-	<h2>Login</h2>
-    <form method="POST">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Login</button>
+    <div class="container" style="display: flex;justify-content: center;flex-direction: column">
+    <h2>Войти</h2>
+    <form class="form" method="POST">
+
+            {% csrf_token %}
+{#            {{ form.as_p }}#}
+            <span>Введите email</span>
+            <div class="label_username">{{ form.username }}</div>
+            <span>Введите пароль</span>
+            {{ form.password }}
+            <button type="submit" class="btn btn-outline-primary">Login</button>
+
     </form>
+    </div>
 {% endblock %}
 

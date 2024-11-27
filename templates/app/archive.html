@@ -1,10 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "base.html" %}
 
-</body>
-</html>
+{% block title %}
+	Archived
+{% endblock %}
+
+
+{% block body %}
+    
+
+    <ul class="item-list">
+        {% for item in items %}
+            <li class="todo-item">
+                {{ item.title }}
+                <p>{{ item.text }}</p>
+                
+            </li>
+
+
+        {% endfor %}
+
+    </ul>
+
+    
+
+
+
+    <script src="https://unpkg.com/htmx.org@1.9.2" integrity="sha384-L6OqL9pRWyyFU3+/bjdSri+iIphTN/bvYyM37tICVyOJkWZLpP2vGn6VUEXgzg6h" crossorigin="anonymous"></script>
+
+    <script>
+    document.body.addEventListener('htmx:configRequest', (event) => {
+        event.detail.headers['X-CSRFToken'] = '{{ csrf_token }}';
+    })
+    </script>
+{% endblock %}
