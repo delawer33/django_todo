@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}
+	Todo list
+{% endblock %}
+
+{% block body %}
+
+{#    <form hx-post="{% url 'app:create' %}" hx-target="#items">#}
+{#    {% csrf_token %}#}
+{#    {{ form.as_p }}#}
+{#    <button type="submit">Add</button>#}
+{#    </form>#}
+
+
+
+    {% if items %}
+        <div id="items">
+            <ul>
+            {% for item in items %}
+                <li>
+                {{ item.title }}
+                <span>{{ item.text }}</span>
+                <span class="action badge rounded-pill text-bg-danger" hx-delete="{% url 'app:delete' item.pk %}"
+                  hx-target="#items" hx-confirm="Are you sure you wish to delete?" style="cursor: pointer;">Delete</span>
+                </li>
+            {% endfor %}
+
+            </ul>
+        </div>
+    {% endif %}
+
+
+
+    <script src="https://unpkg.com/htmx.org@1.9.2" integrity="sha384-L6OqL9pRWyyFU3+/bjdSri+iIphTN/bvYyM37tICVyOJkWZLpP2vGn6VUEXgzg6h" crossorigin="anonymous"></script>
+
+    <script>
+    document.body.addEventListener('htmx:configRequest', (event) => {
+        event.detail.headers['X-CSRFToken'] = '{{ csrf_token }}';
+    })
+    </script>
+{% endblock %}
